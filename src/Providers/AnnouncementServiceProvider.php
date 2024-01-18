@@ -14,6 +14,10 @@ class AnnouncementServiceProvider extends ServiceProvider
 
     public function boot(): void
     {
+        if (!is_plugin_active('skillcraft/core')) {
+            return;
+        }
+        
         $this
             ->setNamespace('plugins/announcement')
             ->loadHelpers()
