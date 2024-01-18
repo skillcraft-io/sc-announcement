@@ -1,0 +1,11 @@
+{
+    "id": "skillcraft/announcement",
+    "name": "Announcement",
+    "namespace": "Skillcraft\\Announcement\\",
+    "provider": "Skillcraft\\Announcement\\Providers\\AnnouncementServiceProvider",
+    "author": "William Troiano",
+    "url": "https://github.com/skillcraft-io",
+    "version": "1.0.0",
+    "description": "Add announcements to the admin and skillcraft account dashboards",
+    "require": ["skillcraft/skillcraft-core"]
+}
